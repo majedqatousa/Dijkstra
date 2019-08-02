@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> Map </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+	
+		<div class = "logo">
+			<img src = "logo.png" >
+		</div>
+		<div class="head"> 
+			<div id="headTitle">
+			<h1> PALESTINE MAP </h1>
+			<p> Find the location, distance and shortest route to your destination </p>
+			</div>
+		</div>
+		<div id = "menu"> 
+			<ul>
+				<li>  </li> 
+				<li> <a href="PalestinMap.html"> Home </a> </li>
+				<li> <a href="aboutus.html"> About Us </a> </li>
+			</ul>
+		</div> 
+	<div id="container"> 
+		
+		<div id="map">
+		
+			<button class = "dot"id = "city1" onclick="choice()" > </button>
+			<button class = "dot"id = "city2" onclick="choice()"> </button>
+			<button class = "dot"id = "city3"onclick="choice()" > </button>
+			<button class = "dot"id = "city4" onclick="choice()"> </button>
+			<button class = "dot"id = "city5" onclick="choice()"> </button>
+			<button class = "dot"id = "city6" onclick="choice()"> </button>
+			<button class = "dot"id = "city7" onclick="choice()"> </button>
+			<button class = "dot"id = "city8" onclick="choice()"> </button>
+			<button class = "dot"id = "city9" onclick="choice()"> </button>
+			<button class = "dot"id = "city10" onclick="choice()"> </button>
+			<button class = "dot"id = "city11" onclick="choice()"> </button>
+			<button class = "dot"id = "city12" onclick="choice()"> </button>
+			<button class = "dot"id = "city13" onclick="choice()"> </button>
+			<button class = "dot"id = "city14" onclick="choice()"> </button>
+			<button class = "dot"id = "city15" onclick="choice()"> </button>
+			<button class = "dot"id = "city16" onclick="choice()"> </button>
+			<button class = "dot"id = "city17" onclick="choice()"> </button>
+			<button class = "dot"id = "city18" onclick="choice()"> </button>
+			<button class = "dot"id = "city19" onclick="choice()"> </button>
+			<button class = "dot"id = "city20" onclick="choice()"> </button>
+			<button class = "dot"id = "city21" onclick="choice()"> </button>
+			<button class = "dot"id = "city22" onclick="choice()"> </button>
+			<button class = "dot"id = "city23" onclick="choice()"> </button>
+			<button class = "dot"id = "city24" onclick="choice()"> </button>
+			<button class = "dot"id = "city25" onclick="choice()"> </button>
+			<button class = "dot"id = "city26" onclick="choice()"> </button>
+			<button class = "dot"id = "city27" onclick="choice()"> </button>
+			<button class = "dot"id = "city28" onclick="choice()"> </button>
+			<button class = "dot"id = "city29" onclick="choice()"> </button>
+			<button class = "dot"id = "city30" onclick="choice()"> </button>
+			<button class = "dot"id = "city31" onclick="choice()"> </button>
+			<button class = "dot"id = "city32" onclick="choice()"> </button>
+			<button class = "dot"id = "city33" onclick="choice()"> </button>
+			<button class = "dot"id = "city34" onclick="choice()"> </button>
+			<button class = "dot"id = "city35" onclick="choice()"> </button>
+			<button class = "dot"id = "city36" onclick="choice()"> </button>
+			<button class = "dot"id = "city37" onclick="choice()"> </button>
+			<button class = "dot"id = "city38" onclick="choice()"> </button>
+			<button class = "dot"id = "city39" onclick="choice()"> </button>
+			<button class = "dot"id = "city40" onclick="choice()"> </button>
+			<button class = "dot"id = "city41" onclick="choice()"> </button>
+			<button class = "dot"id = "city42" onclick="choice()"> </button>
+			<button class = "dot"id = "city43" onclick="choice()"> </button>
+			<button class = "dot"id = "city44" onclick="choice()"> </button>
+			<button class = "dot"id = "city45" onclick="choice()"> </button>
+			<button class = "dot"id = "city46" onclick="choice()"> </button>
+			<button class = "dot"id = "city47" onclick="choice()"> </button>
+			<button class = "dot"id = "city48" onclick="choice()"> </button>
+	
+			
+			<img id = "scream"src="map3.jpg">
+	
+		</div>
+		<div class="right">
+			<p id="counter">count = </p>
+			<div id = "control"> 
+				<p> From </p>
+				<div id="select-from">
+				<select id = "from"  #selectOne>
+					<option value="Ramallah">Ramallah</option>
+					<option value="Nablus">Nablus</option>
+					<option value="Jarusalem">Jarusalem</option>
+					<option value="Jareco">Jareco</option>
+					<option value="Hwara">Hwara</option>
+					<option value="Tubas">Tubas</option>
+					<option value="Yafa">Yafa</option>
+					<option value="Sinjil">Sinjil</option>
+					<option value="Aljalazoon">Aljalazoon</option>
+					<option value="Taluza">Taluza</option>
+					<option value="Qabatia">Qabatia</option>
+					<option value="Tullkarm">Tullkarm</option>
+					<option value="Alnassra">Alnassra</option>
+					<option value="Aka">Aka</option>
+					<option value="Tabarea">Tabarea</option>
+					<option value="Safad">Safad</option>
+					<option value="Jenen">Jenen</option>
+					<option value="BerALsabe">BerALsabe</option>
+					<option value="Rahtt">Rahtt</option>
+					<option value="Dora">Dora</option>
+					<option value="Hebron">Hebron</option>
+					<option value="Halhol">Halhol</option>
+					<option value="Betsahor">Betsahor</option>
+					<option value="BetLahem">BetLahem</option>
+					<option value="Aloja">Aloja</option>
+					<option value="Qalandea">Qalandea</option>
+					<option value="Berzeit">Berzeit</option>
+					<option value="Alafola">Alafola</option>
+					<option value="Naharea">Naharea</option>
+					<option value="Kesarea">Kesarea</option>
+					<option value="Asqalan">Asqalan</option>
+					<option value="Gaza">Gaza</option>
+					<option value="Iearez">Iearez</option>
+					<option value="DerAlbalh">DerAlbalh</option>
+					<option value="Jabalea">Jabalea</option>
+					<option value="Khanuins">Khanuins</option>
+					<option value="Allod">Allod</option>
+					<option value="Alrmla">Alrmla</option>
+					<option value="Allatron">Allatron</option>
+					<option value="Neelen">Neelen</option>
+					<option value="Alteera">Alteera</option>
+					<option value="Qalqelea">Qalqelea</option>
+					<option value="Natanea">Natanea</option>
+					<option value="Rafah">Rafah</option>
+					<option value="Atlet">Atlet</option>
+					<option value="Haefa">Haefa</option>
+					<option value="Asdod">Asdod</option>
+					
+					
+					
+					
+				</select>
+				</div>
+				<p>  To </p> 
+				<div id = "select-to">
+				<select id = "to" #selectTwo>
+					<option value="Ramallah">Ramallah</option>
+					<option value="Nablus">Nablus</option>
+					<option value="Jarusalem">Jarusalem</option>
+					<option value="Jareco">Jareco</option>
+					<option value="Hwara">Hwara</option>
+					<option value="Tubas">Tubas</option>
+					<option value="Yafa">Yafa</option>
+					<option value="Sinjil">Sinjil</option>
+					<option value="Aljalazoon">Aljalazoon</option>
+					<option value="Taluza">Taluza</option>
+					<option value="Qabatia">Qabatia</option>
+					<option value="Tullkarm">Tullkarm</option>
+					<option value="Alnassra">Alnassra</option>
+					<option value="Aka">Aka</option>
+					<option value="Tabarea">Tabarea</option>
+					<option value="Safad">Safad</option>
+					<option value="Jenen">Jenen</option>
+					<option value="BerALsabe">BerALsabe</option>
+					<option value="Rahtt">Rahtt</option>
+					<option value="Dora">Dora</option>
+					<option value="Hebron">Hebron</option>
+					<option value="Halhol">Halhol</option>
+					<option value="Betsahor">Betsahor</option>
+					<option value="BetLahem">BetLahem</option>
+					<option value="Aloja">Aloja</option>
+					<option value="Qalandea">Qalandea</option>
+					<option value="Berzeit">Berzeit</option>
+					<option value="Alafola">Alafola</option>
+					<option value="Naharea">Naharea</option>
+					<option value="Kesarea">Kesarea</option>
+					<option value="Asqalan">Asqalan</option>
+					<option value="Gaza">Gaza</option>
+					<option value="Iearez">Iearez</option>
+					<option value="DerAlbalh">DerAlbalh</option>
+					<option value="Jabalea">Jabalea</option>
+					<option value="Khanuins">Khanuins</option>
+					<option value="Allod">Allod</option>
+					<option value="Alrmla">Alrmla</option>
+					<option value="Allatron">Allatron</option>
+					<option value="Neelen">Neelen</option>
+					<option value="Alteera">Alteera</option>
+					<option value="Qalqelea">Qalqelea</option>
+					<option value="Natanea">Natanea</option>
+					<option value="Rafah">Rafah</option>
+					<option value="Atlet">Atlet</option>
+					<option value="Haefa">Haefa</option>
+					<option value="Asdod">Asdod</option>
+					<option value="Hwara">Asdod</option>
+					
+				</select>
+				</div>
+				<p> Find the distance and shortest route  </p>
+				<button type="button" onclick="checkUp()">Check up</button>
+				<p id="dis"></p>
+				<p id = "road"></p>
+				<textarea id = "outpot" readonly> </textarea>
+				<p id="length"></p>
+				<p id = "outpot2"  style="text-align:center; font-size:24px;" > </p>
+				
+			</div> 
+		</div>
+		<div id="footer">
+			<div class = "icon">
+				<p>Connect with us</p>
+				<a href = "#"><img src="fb.png"></a>
+				<a href = "#"><img src="insta.png"></a>
+				<a href = "#"><img src="google.png"></a>
+				<a href = "#"><img src="youtube.png"></a>
+				
+			</div> 
+			 <p align="center">Copyright &copy; 2018 Creative Commons ShareAlike</p>
+		</div>
+	</div>
+	<script src="dijkstra.js"></script>
+	<script src="citys.js"></script>
+	<script src="drawline.js"></script>
+	
+   <script> 
+			var count  =0 ; 
+			var fram = document.getElementById("from");
+			var to = document.getElementById("to");
+			
+			var city1 = document.getElementById("city1");
+			var city2 = document.getElementById("city2");
+			var city3 = document.getElementById("city3");
+			var city4 = document.getElementById("city4");
+			var city5 = document.getElementById("city5");
+			var city6 = document.getElementById("city6");
+			var city7 = document.getElementById("city7");
+			var city8 = document.getElementById("city8");
+			var city9 = document.getElementById("city9");
+			var city10 = document.getElementById("city10");
+			var city11 = document.getElementById("city11");
+			var city12 = document.getElementById("city12");
+			var city13 = document.getElementById("city13");
+			var city14 = document.getElementById("city14");
+			var city15 = document.getElementById("city15");
+			var city16 = document.getElementById("city16");
+			var city17 = document.getElementById("city17");
+			var city18 = document.getElementById("city18");
+			var city19 = document.getElementById("city19");
+			var city20 = document.getElementById("city20");
+			var city21 = document.getElementById("city21");
+			var city22 = document.getElementById("city22");
+			var city23 = document.getElementById("city23");
+			var city24 = document.getElementById("city24");
+			var city25 = document.getElementById("city25");
+			var city26 = document.getElementById("city26");
+			var city27 = document.getElementById("city27");
+			var city28 = document.getElementById("city28");
+			var city29 = document.getElementById("city29");
+			var city30 = document.getElementById("city30");
+			
+			
+			function choice(){
+				
+			}
+			
+			<!-- صفد -->
+			
+		var start ; 
+		function test(){
+			if(fram.value==to.value){
+				document.getElementById("outpot").innerHTML = "0 destanc .. you are in the same plac  ";
+			}
+			else{
+				document.getElementById("outpot").innerHTML = "You are in " + fram.value + " and you want to go to " + to.value +",  The detanc between  " +fram.value +"  and  "+to.value + "  is :  ";
+				document.getElementById("outpot2").innerHTML="And The path is : "+path;
+			}
+	
+			
+			
+			
+			/* تغير لون النقطة في حال تم اختيارها */
+			if(fram.value=="Nablus"){
+				city6.style.backgroundColor="green";
+			}else if (fram.value=="tubas"){
+				city9.style.backgroundColor="green";
+				city1.style.backgroundColor="red";
+				city2.style.backgroundColor="red";
+				city3.style.backgroundColor="red";
+				city4.style.backgroundColor="red";
+				city5.style.backgroundColor="red";
+				city6.style.backgroundColor="red";
+				city7.style.backgroundColor="red";
+				city8.style.backgroundColor="red";
+				city10.style.backgroundColor="red";
+				
+			}
+			if(to.value=="Nablus"){
+				city6.style.backgroundColor="green";
+			}else if (to.value=="tubas"){
+				city9.style.backgroundColor="green";
+				city1.style.backgroundColor="red";
+				city2.style.backgroundColor="red";
+				city3.style.backgroundColor="red";
+				city4.style.backgroundColor="red";
+				city5.style.backgroundColor="red";
+				city6.style.backgroundColor="red";
+				city7.style.backgroundColor="red";
+				city8.style.backgroundColor="red";
+				city10.style.backgroundColor="red";
+			}
+			
+			
+			
+		}
+		function reset(){
+			alert("Reset the map !!");
+			count=0;
+			document.getElementById("counter").innerHTML=count;
+			fram.value="Ramallah";
+			to.value="Ramallah";
+			city1.style.backgroundColor="red";
+			city2.style.backgroundColor="red";
+			city3.style.backgroundColor="red";
+			city4.style.backgroundColor="red";
+			city5.style.backgroundColor="red";
+			city6.style.backgroundColor="red";
+			city7.style.backgroundColor="red";
+			city8.style.backgroundColor="red";
+			city9.style.backgroundColor="red";
+			city10.style.backgroundColor="red";
+			city11.style.backgroundColor="red";
+			city12.style.backgroundColor="red";
+			city13.style.backgroundColor="red";
+			city14.style.backgroundColor="red";
+			city15.style.backgroundColor="red";
+			city16.style.backgroundColor="red";
+			city17.style.backgroundColor="red";
+			city18.style.backgroundColor="red";
+			city19.style.backgroundColor="red";
+			city20.style.backgroundColor="red";
+			city21.style.backgroundColor="red";
+			city22.style.backgroundColor="red";
+			city23.style.backgroundColor="red";
+			city24.style.backgroundColor="red";
+			city25.style.backgroundColor="red";
+			city26.style.backgroundColor="red";
+			city27.style.backgroundColor="red";
+			city28.style.backgroundColor="red";
+			city29.style.backgroundColor="red";
+			city30.style.backgroundColor="red";
+			city31.style.backgroundColor="red";
+			city32.style.backgroundColor="red";
+			city33.style.backgroundColor="red";
+			city34.style.backgroundColor="red";
+			city35.style.backgroundColor="red";
+			city36.style.backgroundColor="red";
+			city37.style.backgroundColor="red";
+			city38.style.backgroundColor="red";
+			city39.style.backgroundColor="red";
+			city40.style.backgroundColor="red";
+			city41.style.backgroundColor="red";
+			city42.style.backgroundColor="red";
+			city43.style.backgroundColor="red";
+			city44.style.backgroundColor="red";
+			city45.style.backgroundColor="red";
+			city46.style.backgroundColor="red";
+			city47.style.backgroundColor="red";
+			city48.style.backgroundColor="red";
+			
+			
+		}
+
+		let problem = [] 
+		problem.push(["BerALsabe","Rafah",52])
+		problem.push(["BerALsabe","Yatta",35])
+		problem.push(["BerALsabe","Rahtt",27])
+		problem.push(["Rahtt","Dora",33])
+		problem.push(["Rahtt","Iearez",32])
+		problem.push(["Rafah","Khanuins",8])
+		problem.push(["Yatta","Dora",9])
+		problem.push(["Yatta","Hebron",10])
+		problem.push(["Dora","Hebron",9])
+		problem.push(["Dora","Halhol",11])
+		problem.push(["Iearez","Asqalan",15])
+		problem.push(["Iearez","Jabalea",11])
+		problem.push(["Iearez","Gaza",14])
+		problem.push(["Khanuins","DerAlbalh",11])
+		problem.push(["Hebron","Halhol",7])
+		problem.push(["DerAlbalh","Gaza",15])
+		problem.push(["Jabalea","Gaza",4])
+		problem.push(["Asqalan","Asdod",22])
+		problem.push(["Halhol","Betsahor",23])
+		problem.push(["Betsahor","BetLahem",20])
+		problem.push(["BetLahem","Jarusalem",9])
+		problem.push(["BetLahem","Jareco",30])
+		problem.push(["Jarusalem","Qalandea",19])
+		problem.push(["Jarusalem","Allatron",31])
+		problem.push(["Jareco","Qalandea",24])
+		problem.push(["Jareco","Jarusalem",28])
+		problem.push(["Qalandea","Ramallah",8])
+		problem.push(["Ramallah","Neelen",27])
+		problem.push(["Neelen","Allatron",16])
+		problem.push(["Neelen","Allod",18])
+		problem.push(["Neelen","Allod",21])
+		problem.push(["Neelen","Berzeit",17])
+		problem.push(["Allatron","Alrmla",20])
+		problem.push(["Allatron","Asdod",35])
+		problem.push(["Allatron","Allod",21])
+		problem.push(["Asdod","Yafa",33])
+		problem.push(["Alrmla","Yafa",23])
+		problem.push(["Alrmla","Allod",4])
+		problem.push(["Allod","Yafa",25])
+		problem.push(["Yafa","Natanea",38])//jhjugy
+		problem.push(["Yafa","Alteera",32])
+		problem.push(["Ramallah","Aljalazoon",6])
+		problem.push(["Ramallah","Aloja",45])
+		problem.push(["Jareco","Aloja",25])
+		problem.push(["Aljalazoon","Berzeit",25])
+		problem.push(["Aljalazoon","Sinjil",21])
+		problem.push(["Berzeit","Sinjil",23])
+		problem.push(["Berzeit","Hwara",35])
+		problem.push(["Berzeit","Qalqelea",69])
+		problem.push(["Alteera","Qalqelea",7])
+		problem.push(["Alteera","Tullkarm",25])
+		problem.push(["Natanea","Kesarea",26])
+		problem.push(["Sinjil","Hwara",30])
+		problem.push(["Hwara","Nablus",9])
+		problem.push(["Nablus","Taluza",16])
+		problem.push(["Nablus","Qabatia",38])
+		problem.push(["Nablus","Qalqelea",47])
+		problem.push(["Taluza","Tubas",14])
+		problem.push(["Tubas","Qabatia",20])
+		problem.push(["Qalqelea","Tullkarm",19])
+		problem.push(["Qalqelea","Qabatia",53])
+		problem.push(["Tullkarm","Qabatia",35])
+		problem.push(["Qabatia","Jenen",7])
+		problem.push(["Jenen","Alafola",19])
+		problem.push(["Alafola","Alnassra",12])
+		problem.push(["Alafola","Atlet",50])
+		problem.push(["Alnassra","Safad",50])
+		problem.push(["Alnassra","Tabarea",28])
+		problem.push(["Alnassra","Aka",40])
+		problem.push(["Alnassra","Haefa",38])
+		problem.push(["Alnassra","Atlet",52])
+		problem.push(["Tabarea","Safad",35])
+		problem.push(["Tabarea","Aka",58])
+		problem.push(["Kesarea","Atlet",26])
+		problem.push(["Atlet","Haefa",18])
+		problem.push(["Haefa","Aka",26])
+		problem.push(["Aka","Naharea",9])
+		problem.push(["Aka","Safad",54])
+		problem.push(["Naharea","Safad",53])
+
+	function ok(){
+		
+		document.getElementById("outpot").innerHTML=path;
+		document.getElementById("outpot2").innerHTML=length;
+		
+	}
+	checkUp = ()=>{
+	start=document.getElementById('from').value;	
+	finsh=document.getElementById('to').value;	
+	console.log("from" + start +"  to "+ finsh);
+		let [path,length] = dijkstra(problem, start, finsh);
+		console.log(path) 
+		console.log(length)
+		document.getElementById("outpot").innerHTML=path;
+		document.getElementById("outpot2").innerHTML=length + " KM";
+		
+	if(start===finsh){
+		document.getElementById("dis").innerHTML="Error : You are in the same city ";
+	}else{
+		document.getElementById("dis").innerHTML="You are in <font color='red'> <strong>"+start+"</strong> </font> , and you want to go to the <font color='red'> <strong> "+finsh+" </strong></font> .";
+		document.getElementById("road").innerHTML="Through the road : ";
+		document.getElementById("length").innerHTML="And the length of the road is : ";
+		
+	}
+	if(start=="Jarusalem"&&finsh=="Ramallah" || start=="Ramallah"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+	}
+	if(start=="Jarusalem"&&finsh=="Alnassra" || start=="Alnassra"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		
+	}
+	if(start=="Jarusalem"&&finsh=="Safad" || start=="Safad"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city1.style.backgroundColor="#62F102";
+	}
+		if(start=="Jarusalem"&&finsh=="Naharea" || start=="Naharea"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+		city34.style.backgroundColor="#62F102";
+		city3.style.backgroundColor="#62F102";
+		city35.style.backgroundColor="#62F102";
+	
+	}
+		if(start=="Jarusalem"&&finsh=="Aka" || start=="Aka"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+		city34.style.backgroundColor="#62F102";
+		city3.style.backgroundColor="#62F102";
+	}
+		if(start=="Jarusalem"&&finsh=="Haefa" || start=="Haefa"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+		city34.style.backgroundColor="#62F102";
+	}
+		if(start=="Jarusalem"&&finsh=="Atlet" || start=="Atlet"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+		
+	}
+		if(start=="Jarusalem"&&finsh=="Kesarea" || start=="Kesarea"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+	
+	}
+		if(start=="Jarusalem"&&finsh=="Natanea" || start=="Natanea"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+
+	}
+		if(start=="Jarusalem"&&finsh=="Yafa" || start=="Yafa"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+	
+
+
+	}
+		if(start=="Jarusalem"&&finsh=="Alrmla" || start=="Alrmla"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		
+
+	}
+		if(start=="Jarusalem"&&finsh=="Allatron" || start=="Allatron"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+	
+
+	}
+		if(start=="Jarusalem"&&finsh=="Rafah" || start=="Rafah"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city42.style.backgroundColor="#62F102";
+		city41.style.backgroundColor="#62F102";
+		city40.style.backgroundColor="#62F102";
+		city39.style.backgroundColor="#62F102";
+	
+
+	}
+			if(start=="Jarusalem"&&finsh=="Khanuins" || start=="Khanuins"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city42.style.backgroundColor="#62F102";
+		city41.style.backgroundColor="#62F102";
+		city40.style.backgroundColor="#62F102";
+	}
+			if(start=="Jarusalem"&&finsh=="DerAlbalh" || start=="DerAlbalh"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city42.style.backgroundColor="#62F102";
+		city41.style.backgroundColor="#62F102";
+
+	
+
+	}
+			if(start=="Jarusalem"&&finsh=="Gaza" || start=="Gaza"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city42.style.backgroundColor="#62F102";
+	
+
+	}
+		if(start=="Jarusalem"&&finsh=="Jabalea" || start=="Jabalea"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city24.style.backgroundColor="#62F102";
+
+	}
+		if(start=="Jarusalem"&&finsh=="Iearez" || start=="Iearez"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+
+	}
+		if(start=="Jarusalem"&&finsh=="Asqalan" || start=="Asqalan"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+
+	}
+		if(start=="Jarusalem"&&finsh=="Asdod" || start=="Asdod"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+
+
+	}
+		if(start=="Jarusalem"&&finsh=="Alafola" || start=="Alafola"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		
+	}
+		if(start=="Jarusalem"&&finsh=="Jenen" || start=="Jenen"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		
+	}
+		if(start=="Jarusalem"&&finsh=="Qabatia" || start=="Qabatia"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+
+		
+	}
+			if(start=="Jarusalem"&&finsh=="Nablus" || start=="Nablus"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+	
+	}
+		if(start=="Jarusalem"&&finsh=="Hwara" || start=="Hwara"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+	
+	}
+		if(start=="Jarusalem"&&finsh=="Sinjil" || start=="Sinjil"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+	
+	}
+		if(start=="Jarusalem"&&finsh=="Aljalazoon" || start=="Aljalazoon"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+	}
+		if(start=="Jarusalem"&&finsh=="Ramallah" || start=="Ramallah"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+	}
+		if(start=="Jarusalem"&&finsh=="Qalandea" || start=="Qalandea"&&finsh=="Jarusalem"){
+		city15.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+	}
+	//اريحا_______________________________________________________________________
+	
+		if(start=="Jareco"&&finsh=="Safad" || start=="Safad"&&finsh=="Jareco"){
+		city1.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city17.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="Tabarea" || start=="Tabarea"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city17.style.backgroundColor="#62F102";
+
+	}
+			if(start=="Jareco"&&finsh=="Alnassra" || start=="Alnassra"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+	}
+				if(start=="Jareco"&&finsh=="Alafola" || start=="Alafola"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city17.style.backgroundColor="#62F102";
+
+	}
+					if(start=="Jareco"&&finsh=="Jenen" || start=="Jenen"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city17.style.backgroundColor="#62F102";
+
+	}
+						if(start=="Jareco"&&finsh=="Qabatia" || start=="Qabatia"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city17.style.backgroundColor="#62F102";
+		
+	}
+		if(start=="Jareco"&&finsh=="Nablus" || start=="Nablus"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="Hwara" || start=="Hwara"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		}
+		if(start=="Jareco"&&finsh=="Sinjil" || start=="Sinjil"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		
+		}
+		if(start=="Jareco"&&finsh=="Aljalazoon" || start=="Aljalazoon"&&finsh=="Jareco"){
+		city11.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city17.style.backgroundColor="#62F102";
+		
+	
+		}
+		if(start=="Jareco"&&finsh=="Ramallah" || start=="Ramallah"&&finsh=="Jareco"){
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city17.style.backgroundColor="#62F102";
+	
+		}
+		if(start=="Jareco"&&finsh=="Qalandea" || start=="Qalandea"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		
+	
+		}
+		if(start=="Jareco"&&finsh=="Naharea" || start=="Naharea"&&finsh=="Jareco"){
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city17.style.backgroundColor="#62F102";
+		city3.style.backgroundColor="#62F102";
+		city35.style.backgroundColor="#62F102";
+	}
+			if(start=="Jareco"&&finsh=="Aka" || start=="Aka"&&finsh=="Jareco"){
+		city11.style.backgroundColor="#62F102";
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city17.style.backgroundColor="#62F102";
+		city3.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="Haefa" || start=="Haefa"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+		city34.style.backgroundColor="#62F102";
+	}
+			if(start=="Jareco"&&finsh=="Atlet" || start=="Atlet"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+	}
+			if(start=="Jareco"&&finsh=="Kesarea" || start=="Kesarea"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+	}
+			if(start=="Jareco"&&finsh=="Natanea" || start=="Natanea"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+
+	}
+		if(start=="Jareco"&&finsh=="Yafa" || start=="Yafa"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+
+	}
+		if(start=="Jareco"&&finsh=="Alrmla" || start=="Alrmla"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city37.style.backgroundColor="#62F102";
+
+	}
+		if(start=="Jareco"&&finsh=="Allatron" || start=="Allatron"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="Khanuins" || start=="Khanuins"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city42.style.backgroundColor="#62F102";
+		city41.style.backgroundColor="#62F102";
+		city40.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="DerAlbalh" || start=="DerAlbalh"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city42.style.backgroundColor="#62F102";
+		city41.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="Gaza" || start=="Gaza"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city42.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="Jabalea" || start=="Jabalea"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city24.style.backgroundColor="#62F102";
+		
+	}
+			if(start=="Jareco"&&finsh=="Iearez" || start=="Iearez"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		
+	}
+			if(start=="Jareco"&&finsh=="Asqalan" || start=="Asqalan"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";		
+	}
+		if(start=="Jareco"&&finsh=="Asdod" || start=="Asdod"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="Rafah" || start=="Rafah"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+		city27.style.backgroundColor="#62F102";
+		city26.style.backgroundColor="#62F102";
+		city39.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="BerALsabe" || start=="BerALsabe"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+		city27.style.backgroundColor="#62F102";
+		city26.style.backgroundColor="#62F102";
+	}
+		if(start=="Jareco"&&finsh=="Yatta" || start=="Yatta"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+		city27.style.backgroundColor="#62F102";
+		
+	}
+		if(start=="Jareco"&&finsh=="Hebron" || start=="Hebron"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+		
+	}
+			if(start=="Jareco"&&finsh=="Dora" || start=="Dora"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+		city30.style.backgroundColor="#62F102";
+		
+		
+	}
+				if(start=="Jareco"&&finsh=="Rahtt" || start=="Rahtt"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+		city30.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		
+		
+	}
+			if(start=="Jareco"&&finsh=="Halhol" || start=="Halhol"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		
+	}
+		if(start=="Jareco"&&finsh=="Betsahor" || start=="Betsahor"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		
+	}
+			if(start=="Jareco"&&finsh=="BetLahem" || start=="BetLahem"&&finsh=="Jareco"){
+		city17.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+	}
+	//بير السبع ____________________________________________________________
+	
+		if(start=="BerALsabe"&&finsh=="Safad" || start=="Safad"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city47.style.backgroundColor="#62F102";
+		city46.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city1.style.backgroundColor="#62F102";
+		
+	}
+			if(start=="BerALsabe"&&finsh=="Tabarea" || start=="Tabarea"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city47.style.backgroundColor="#62F102";
+		city46.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city4.style.backgroundColor="#62F102";
+		
+	}
+				if(start=="BerALsabe"&&finsh=="Alnassra" || start=="Alnassra"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city47.style.backgroundColor="#62F102";
+		city46.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		
+	}
+				if(start=="BerALsabe"&&finsh=="Alafola" || start=="Alafola"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city47.style.backgroundColor="#62F102";
+		city46.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		
+	}
+				if(start=="BerALsabe"&&finsh=="Jenen" || start=="Jenen"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city47.style.backgroundColor="#62F102";
+		city46.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+
+	}
+		if(start=="BerALsabe"&&finsh=="Qabatia" || start=="Qabatia"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city47.style.backgroundColor="#62F102";
+		city46.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+	}
+		if(start=="BerALsabe"&&finsh=="Qalqelea" || start=="Qalqelea"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city47.style.backgroundColor="#62F102";
+		city46.style.backgroundColor="#62F102";
+	
+	}
+			if(start=="BerALsabe"&&finsh=="Alteera" || start=="Alteera"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city47.style.backgroundColor="#62F102";
+
+	}
+			if(start=="BerALsabe"&&finsh=="Naharea" || start=="Naharea"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+		city34.style.backgroundColor="#62F102";
+		city3.style.backgroundColor="#62F102";
+		city35.style.backgroundColor="#62F102";
+	}
+		if(start=="BerALsabe"&&finsh=="Aka" || start=="Aka"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+		city34.style.backgroundColor="#62F102";
+		city3.style.backgroundColor="#62F102";
+	}
+				if(start=="BerALsabe"&&finsh=="Haefa" || start=="Haefa"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+		city34.style.backgroundColor="#62F102";
+	}
+		if(start=="BerALsabe"&&finsh=="Atlet" || start=="Atlet"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+	}
+		if(start=="BerALsabe"&&finsh=="Kesarea" || start=="Kesarea"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+	}
+					if(start=="BerALsabe"&&finsh=="Natanea" || start=="Natanea"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+	}
+		if(start=="BerALsabe"&&finsh=="Yafa" || start=="Yafa"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+	
+	}
+			if(start=="BerALsabe"&&finsh=="Asdod" || start=="Asdod"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+	
+	}
+			if(start=="BerALsabe"&&finsh=="Asqalan" || start=="Asqalan"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+	
+	}
+			if(start=="BerALsabe"&&finsh=="Iearez" || start=="Iearez"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+	}
+		if(start=="BerALsabe"&&finsh=="Rahtt" || start=="Rahtt"&&finsh=="BerALsabe"){
+		city26.style.backgroundColor="#62F102";
+		city25.style.backgroundColor="#62F102";
+	
+	}
+	//رام الله 
+		if(start=="Ramallah"&&finsh=="Safad" || start=="Safad"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city1.style.backgroundColor="#62F102";
+	}
+			if(start=="Ramallah"&&finsh=="Tabarea" || start=="Tabarea"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city4.style.backgroundColor="#62F102";
+	}
+				if(start=="Ramallah"&&finsh=="Alnassra" || start=="Alnassra"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+	}
+					if(start=="Ramallah"&&finsh=="Haefa" || start=="Haefa"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city34.style.backgroundColor="#62F102";
+		
+	}
+		if(start=="Ramallah"&&finsh=="Aka" || start=="Aka"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city3.style.backgroundColor="#62F102";
+		
+	}
+		if(start=="Ramallah"&&finsh=="Naharea" || start=="Naharea"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+		city2.style.backgroundColor="#62F102";
+		city3.style.backgroundColor="#62F102";
+		city35.style.backgroundColor="#62F102";
+		
+		
+	}
+					if(start=="Ramallah"&&finsh=="Alafola" || start=="Alafola"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+		city36.style.backgroundColor="#62F102";
+	}
+						if(start=="Ramallah"&&finsh=="Jenen" || start=="Jenen"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+		city5.style.backgroundColor="#62F102";
+	}
+		if(start=="Ramallah"&&finsh=="Qabatia" || start=="Qabatia"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+		city10.style.backgroundColor="#62F102";
+	}
+								if(start=="Ramallah"&&finsh=="Nablus" || start=="Nablus"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+		city6.style.backgroundColor="#62F102";
+	}
+		if(start=="Ramallah"&&finsh=="Hwara" || start=="Hwara"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+		city48.style.backgroundColor="#62F102";
+	}
+		if(start=="Ramallah"&&finsh=="Sinjil" || start=="Sinjil"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city12.style.backgroundColor="#62F102";
+	}
+		if(start=="Ramallah"&&finsh=="Aljalazoon" || start=="Aljalazoon"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+	}
+		if(start=="Ramallah"&&finsh=="Berzeit" || start=="Berzeit"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city45.style.backgroundColor="#62F102";
+		
+	}
+			if(start=="Ramallah"&&finsh=="Qalqelea" || start=="Qalqelea"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city13.style.backgroundColor="#62F102";
+		city45.style.backgroundColor="#62F102";
+		city46.style.backgroundColor="#62F102";
+		
+	}
+			if(start=="Ramallah"&&finsh=="Gaza" || start=="Gaza"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city18.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city42.style.backgroundColor="#62F102";
+
+	}
+		if(start=="Ramallah"&&finsh=="Rafah" || start=="Rafah"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city18.style.backgroundColor="#62F102";
+		city38.style.backgroundColor="#62F102";
+		city21.style.backgroundColor="#62F102";
+		city22.style.backgroundColor="#62F102";
+		city23.style.backgroundColor="#62F102";
+		city42.style.backgroundColor="#62F102";
+		city41.style.backgroundColor="#62F102";
+		city40.style.backgroundColor="#62F102";
+		city39.style.backgroundColor="#62F102";
+	}
+			if(start=="Ramallah"&&finsh=="BerALsabe" || start=="BerALsabe"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+		city27.style.backgroundColor="#62F102";
+		city26.style.backgroundColor="#62F102";
+	}
+				if(start=="Ramallah"&&finsh=="Yatta" || start=="Yatta"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+		city27.style.backgroundColor="#62F102";
+	}
+					if(start=="Ramallah"&&finsh=="Hebron" || start=="Hebron"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+
+	}
+		if(start=="Ramallah"&&finsh=="Hebron" || start=="Hebron"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+		city28.style.backgroundColor="#62F102";
+
+	}
+			if(start=="Ramallah"&&finsh=="Halhol" || start=="Halhol"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+		city29.style.backgroundColor="#62F102";
+	}
+				if(start=="Ramallah"&&finsh=="Betsahor" || start=="Betsahor"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+		city44.style.backgroundColor="#62F102";
+	}
+					if(start=="Ramallah"&&finsh=="BetLahem" || start=="BetLahem"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city11.style.backgroundColor="#62F102";
+		city15.style.backgroundColor="#62F102";
+		city16.style.backgroundColor="#62F102";
+	}
+						if(start=="Ramallah"&&finsh=="Atlet" || start=="Atlet"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city18.style.backgroundColor="#62F102";
+		city19.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		city33.style.backgroundColor="#62F102";
+		
+	}
+							if(start=="Ramallah"&&finsh=="Kesarea" || start=="Kesarea"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city18.style.backgroundColor="#62F102";
+		city19.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		city32.style.backgroundColor="#62F102";
+		
+	}
+								if(start=="Ramallah"&&finsh=="Natanea" || start=="Natanea"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city18.style.backgroundColor="#62F102";
+		city19.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+		city31.style.backgroundColor="#62F102";
+		
+	}
+									if(start=="Ramallah"&&finsh=="Yafa" || start=="Yafa"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city18.style.backgroundColor="#62F102";
+		city19.style.backgroundColor="#62F102";
+		city20.style.backgroundColor="#62F102";
+	
+	}
+										if(start=="Ramallah"&&finsh=="Allod" || start=="Allod"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city18.style.backgroundColor="#62F102";
+		city19.style.backgroundColor="#62F102";
+	
+	}
+											if(start=="Ramallah"&&finsh=="Neelen" || start=="Neelen"&&finsh=="Ramallah"){
+		city14.style.backgroundColor="#62F102";
+		city18.style.backgroundColor="#62F102";
+	
+	}
+	}
+
+		</script>
+  </body>
+</html>
